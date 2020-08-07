@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f4f9dd0a1e1b13954309849caf70522",
+    "revision": "36dcbde5d8dbce4ad20eaf4740323ce6",
     "url": "/intugine-dashboard/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/intugine-dashboard/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "14a8b60bff67e1cd1211",
-    "url": "/intugine-dashboard/static/css/main.09d5ad80.chunk.css"
+    "revision": "23d1a0da10dd6d517c11",
+    "url": "/intugine-dashboard/static/css/main.32eb26fc.chunk.css"
   },
   {
     "revision": "67eb4013ba349d3ad540",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/intugine-dashboard/static/js/2.de29f95e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "14a8b60bff67e1cd1211",
-    "url": "/intugine-dashboard/static/js/main.122bbc9e.chunk.js"
+    "revision": "23d1a0da10dd6d517c11",
+    "url": "/intugine-dashboard/static/js/main.3ab605b3.chunk.js"
   },
   {
     "revision": "e64d3b535bbeb4b6faa6",

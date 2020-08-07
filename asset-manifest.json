@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/intugine-dashboard/static/css/main.09d5ad80.chunk.css",
-    "main.js": "/intugine-dashboard/static/js/main.122bbc9e.chunk.js",
-    "main.js.map": "/intugine-dashboard/static/js/main.122bbc9e.chunk.js.map",
+    "main.css": "/intugine-dashboard/static/css/main.32eb26fc.chunk.css",
+    "main.js": "/intugine-dashboard/static/js/main.3ab605b3.chunk.js",
+    "main.js.map": "/intugine-dashboard/static/js/main.3ab605b3.chunk.js.map",
     "runtime-main.js": "/intugine-dashboard/static/js/runtime-main.f8ce00a3.js",
     "runtime-main.js.map": "/intugine-dashboard/static/js/runtime-main.f8ce00a3.js.map",
     "static/css/2.829c9cb5.chunk.css": "/intugine-dashboard/static/css/2.829c9cb5.chunk.css",
     "static/js/2.de29f95e.chunk.js": "/intugine-dashboard/static/js/2.de29f95e.chunk.js",
     "static/js/2.de29f95e.chunk.js.map": "/intugine-dashboard/static/js/2.de29f95e.chunk.js.map",
     "index.html": "/intugine-dashboard/index.html",
-    "precache-manifest.3d100a865a05224305574717f66cac87.js": "/intugine-dashboard/precache-manifest.3d100a865a05224305574717f66cac87.js",
+    "precache-manifest.bc7cd4beb06813009d3161eb80a95f43.js": "/intugine-dashboard/precache-manifest.bc7cd4beb06813009d3161eb80a95f43.js",
     "service-worker.js": "/intugine-dashboard/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/intugine-dashboard/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.09d5ad80.chunk.css.map": "/intugine-dashboard/static/css/main.09d5ad80.chunk.css.map",
+    "static/css/main.32eb26fc.chunk.css.map": "/intugine-dashboard/static/css/main.32eb26fc.chunk.css.map",
     "static/js/2.de29f95e.chunk.js.LICENSE.txt": "/intugine-dashboard/static/js/2.de29f95e.chunk.js.LICENSE.txt",
     "static/media/destination.85f9fdcc.svg": "/intugine-dashboard/static/media/destination.85f9fdcc.svg",
     "static/media/logo.877653ae.svg": "/intugine-dashboard/static/media/logo.877653ae.svg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.f8ce00a3.js",
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.de29f95e.chunk.js",
-    "static/css/main.09d5ad80.chunk.css",
-    "static/js/main.122bbc9e.chunk.js"
+    "static/css/main.32eb26fc.chunk.css",
+    "static/js/main.3ab605b3.chunk.js"
   ]
 }
