@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e89b1ce61329f9f32abaf6c2dcc37c36",
+    "revision": "5f4f9dd0a1e1b13954309849caf70522",
     "url": "/intugine-dashboard/index.html"
   },
   {
-    "revision": "cf32b928333d811867a9",
+    "revision": "67eb4013ba349d3ad540",
     "url": "/intugine-dashboard/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "a0bf7d147283e65be22a",
-    "url": "/intugine-dashboard/static/css/main.784329b1.chunk.css"
+    "revision": "14a8b60bff67e1cd1211",
+    "url": "/intugine-dashboard/static/css/main.09d5ad80.chunk.css"
   },
   {
-    "revision": "cf32b928333d811867a9",
-    "url": "/intugine-dashboard/static/js/2.33c3596a.chunk.js"
+    "revision": "67eb4013ba349d3ad540",
+    "url": "/intugine-dashboard/static/js/2.de29f95e.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/intugine-dashboard/static/js/2.33c3596a.chunk.js.LICENSE.txt"
+    "url": "/intugine-dashboard/static/js/2.de29f95e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0bf7d147283e65be22a",
-    "url": "/intugine-dashboard/static/js/main.59a7e9b7.chunk.js"
+    "revision": "14a8b60bff67e1cd1211",
+    "url": "/intugine-dashboard/static/js/main.122bbc9e.chunk.js"
   },
   {
     "revision": "e64d3b535bbeb4b6faa6",
