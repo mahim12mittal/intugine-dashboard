@@ -1,21 +1,32 @@
+/*badge*/
+.badgediv {
+  text-align: center;
+  margin-top: 100px;
+}
+.btn {
+  height: 90px;
+  width: 90px;
+}
+
+/*table*/
 .tablediv {
   float: right;
   height: 450x;
   width: 63%;
-  margin-top: -20px;
+  margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 25px;
   border: solid;
   border-right: hidden;
   border-color: rgb(228, 227, 227);
   border-width: 1.5px;
+  overflow-x: auto;
 }
 
 .tablehead {
   display: block;
   color: rgb(148, 148, 148);
   font-size: 8px;
-  overflow: auto;
   text-align: center;
 }
 .tablebody {
@@ -93,4 +104,7 @@
 .warehouse {
   margin-left: -29px;
   margin-top: 10px;
+}
+.tr {
+  margin-left: -20px;
 }

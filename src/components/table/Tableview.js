@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./tableview.css";
 import { ReactComponent as ReactDestination } from "./destination.svg";
 import { ReactComponent as ReactWareHouse } from "./warehouse.svg";
+import _default from "react-bootstrap/esm/CardColumns";
 
 const Tableview = () => {
   const [hasError, setErrors] = useState(false);
@@ -50,7 +51,7 @@ const Tableview = () => {
       </ul>
     );
   }
-  let [sassy, setSassy] = useState(abc(0));
+  let [sassy, setSassy] = useState();
   function handleClick(x) {
     setSassy(abc(x));
     console.log({ x });
@@ -72,24 +73,121 @@ const Tableview = () => {
       </tr>
     );
   };
+  function xyz(x) {
+    return planets.data
+      .filter((i) => i.current_status_code === x)
+      .map(renderData);
+  }
+  let [sass, setSass] = useState(xyz());
+
+  function handleButton(x) {
+    setSass(xyz(x));
+  }
 
   return (
     <div>
+      <div className="badgediv">
+        <button
+          onClick={handleButton.bind(this, "DEL")}
+          className="btn btn-primary text-left m-3 "
+          type="button"
+        >
+          DEL
+          <h3>
+            <span className="badge badge-primary m-3 ">
+              {
+                planets.data.filter((i) => {
+                  return i.current_status_code === "DEL";
+                }).length
+              }
+            </span>
+          </h3>
+        </button>
+        <button
+          onClick={handleButton.bind(this, "INT")}
+          className="btn btn-primary text-left m-3"
+          type="button"
+        >
+          INT
+          <h3>
+            <span className="badge badge-primary m-3 ">
+              {
+                planets.data.filter((i) => {
+                  return i.current_status_code === "INT";
+                }).length
+              }
+            </span>
+          </h3>
+        </button>
+        <button
+          onClick={handleButton.bind(this, "OOD")}
+          className="btn btn-primary text-left m-3"
+          type="button"
+        >
+          OOD
+          <h3>
+            <span className="badge badge-primary m-3 ">
+              {" "}
+              {
+                planets.data.filter((i) => {
+                  return i.current_status_code === "OOD";
+                }).length
+              }
+            </span>
+          </h3>
+        </button>
+        <button
+          onClick={handleButton.bind(this, "DEX")}
+          className="btn btn-primary text-left m-3"
+          type="button"
+        >
+          DEX
+          <h3>
+            <span className="badge badge-primary m-3 ">
+              {" "}
+              {
+                planets.data.filter((i) => {
+                  return i.current_status_code === "DEX";
+                }).length
+              }
+            </span>
+          </h3>
+        </button>
+        <button
+          onClick={handleButton.bind(this, "NFI")}
+          className="btn btn-primary text-left m-3"
+          type="button"
+        >
+          NFI
+          <h3>
+            <span className="badge badge-primary m-3 ">
+              {" "}
+              {
+                planets.data.filter((i) => {
+                  return i.current_status_code === "NFI";
+                }).length
+              }
+            </span>
+          </h3>
+        </button>
+      </div>
       <div className="tablediv">
         <table className="table table-hover main">
           <thead className="tablehead">
-            <tr>
-              <th>AWB NUMBER</th>
-              <th>TRANSPORTER</th>
-              <th>SOURCE</th>
-              <th>DESTINATION</th>
-              <th>BRAND</th>
-              <th>START DATE</th>
-              <th>ETD</th>
-              <th>STATUS</th>
+            <tr className="tabletr">
+              <th scope="col">AWB NUMBER</th>
+              <th scope="col">TRANSPORTER</th>
+              <th scope="col">SOURCE</th>
+              <th scope="col">DESTINATION</th>
+              <th scope="col">BRAND</th>
+              <th scope="col">START DATE</th>
+              <th scope="col">ETD</th>
+              <th scope="col">STATUS</th>
             </tr>
           </thead>
-          <tbody className="tablebody">{planets.data.map(renderData)}</tbody>
+          <tbody className="tablebody">
+            {sass.length == 0 ? xyz("DEL") : sass}
+          </tbody>
         </table>
       </div>
       <div className="progressdiv">{sassy}</div>

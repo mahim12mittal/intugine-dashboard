@@ -8,7 +8,6 @@ import "bootstrap/dist/css/bootstrap.css";
 ReactDOM.render(
   <div>
     <Nav />
-    <Badge />
     <Tableview />
   </div>,
   document.getElementById("root")
