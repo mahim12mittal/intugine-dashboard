@@ -35,20 +35,22 @@ const Tableview = () => {
   console.log(planets);
   function abc(y) {
     return (
-      <ul className="progressul">
-        <ReactDestination className="destination" />
-        {planets.data[y]
-          ? planets.data[y].scan.map((i, k) => (
-              <li className="steps" key={k}>
-                <strong>{i.location}</strong>
-                <time className="dt" dateTime={i.time}>
-                  {i.time}
-                </time>
-              </li>
-            ))
-          : "na"}
-        <ReactWareHouse className="warehouse" />
-      </ul>
+      <div className="progressdiv">
+        <ul className="progressul">
+          <ReactDestination className="destination" />
+          {planets.data[y]
+            ? planets.data[y].scan.map((i, k) => (
+                <li className="steps" key={k}>
+                  <strong>{i.location}</strong>
+                  <time className="dt" dateTime={i.time}>
+                    {i.time}
+                  </time>
+                </li>
+              ))
+            : "na"}
+          <ReactWareHouse className="warehouse" />
+        </ul>
+      </div>
     );
   }
   let [sassy, setSassy] = useState();
@@ -190,7 +192,7 @@ const Tableview = () => {
           </tbody>
         </table>
       </div>
-      <div className="progressdiv">{sassy}</div>
+      {sassy}
     </div>
   );
 };
