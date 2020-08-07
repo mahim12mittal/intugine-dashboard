@@ -1,0 +1,96 @@
+.tablediv {
+  float: right;
+  height: 450x;
+  width: 63%;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  margin-right: 25px;
+  border: solid;
+  border-right: hidden;
+  border-color: rgb(228, 227, 227);
+  border-width: 1.5px;
+}
+
+.tablehead {
+  display: block;
+  color: rgb(148, 148, 148);
+  font-size: 8px;
+  overflow: auto;
+  text-align: center;
+}
+.tablebody {
+  display: block;
+  height: 400px;
+  font-size: 10px;
+  font-weight: bolder;
+  overflow: auto;
+  text-align: left;
+}
+
+/*progeress*/
+
+.progressdiv {
+  height: auto;
+  width: 30%;
+  margin-top: 45px;
+  margin-left: 35px;
+  border: solid;
+  border-color: rgb(228, 227, 227);
+  border-width: 1.5px;
+  font-size: 11px;
+  color: rgb(144, 144, 144);
+}
+.progressul steps::before {
+  content: "";
+}
+.steps {
+  position: relative;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: solid;
+  border-color: rgb(228, 227, 227);
+  border-width: 1px;
+  list-style: none;
+}
+.steps::before {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 10px;
+  height: 100%;
+  border-left: 2px solid #cccccc;
+}
+/* .steps::before {
+  display: inline-block;
+  content: "•";
+  font-size: 300%;
+  position: absolute;
+  top: -10px;
+
+  left: -20px;
+  width: 10px;
+  height: 100%;
+  border-left: 2px solid #cccccc;
+} */
+
+.steps:hover {
+  background-color: rgb(228, 227, 227);
+  color: rgba(3, 170, 3, 0.835);
+}
+.dt {
+  float: right;
+  margin-right: 20px;
+  font-size: 9px;
+  font-weight: bolder;
+}
+.destination {
+  margin-left: -19px;
+  margin-top: 10px;
+}
+.warehouse {
+  margin-left: -29px;
+  margin-top: 10px;
+}
